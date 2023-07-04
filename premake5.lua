@@ -26,6 +26,7 @@ project "Nova"
 
 	includedirs
 	{
+		"%{prj.name}/src",
 		"%{prj.name}/3rdParty/spdlog/include"
 	}
 

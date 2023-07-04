@@ -19,6 +19,10 @@
     <ClInclude Include="src\Nova\Log.h">
       <Filter>Nova</Filter>
     </ClInclude>
+    <ClInclude Include="src\Nova\Events\Event.h" />
+    <ClInclude Include="src\Nova\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Nova\Events\KeyEvent.h" />
+    <ClInclude Include="src\Nova\Events\MouseEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Nova\Application.cpp">
